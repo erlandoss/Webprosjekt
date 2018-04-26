@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'bitnami_wordpress');
+define('DB_NAME', 'tratha17_wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'bn_wordpress');
+define('DB_USER', 'tratha17_wp');
 
 /** MySQL database password */
-define('DB_PASSWORD', '4f89532077');
+define('DB_PASSWORD', 'webprosjekt123');
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1:3307');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -91,10 +91,10 @@ define('WP_DEBUG', false);
 if ( defined( 'WP_CLI' ) ) {
     $_SERVER['HTTP_HOST'] = 'localhost';
 }
-
+/*
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
-
+*/
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
@@ -103,7 +103,7 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define('WP_TEMP_DIR', 'C:\Bitnami\wordpress-4.9.4-1/apps/wordpress/tmp');
+//define('WP_TEMP_DIR', 'C:\Bitnami\wordpress-4.9.4-1/apps/wordpress/tmp');
 
 
 
